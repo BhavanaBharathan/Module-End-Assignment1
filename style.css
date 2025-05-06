@@ -1,0 +1,150 @@
+body {
+    background-image: url('images/gradient-image.jpeg');
+    background-size: cover;         
+    background-repeat: no-repeat; 
+    background-position: center;    
+    background-color: #f8f9fa;
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+  
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  position: relative;
+  color: #fff !important;
+  margin-right: 15px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #98a2ac;
+}
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2b2d42;
+  }
+
+  .hero-tagline {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+
+  .hero-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .hero-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  .about-photo {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .about-section {
+    padding: 60px 0;
+  }
+  .about-section bg-light
+  {
+    background-image: url('images/gradient-image.jpeg');
+    background-size: cover;         
+    background-repeat: no-repeat; 
+    background-position: center;  
+  }
+
+  footer {
+    background-color: #9fb1b4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+  }
+
+  footer span {
+    color: #bde9e1;
+    font-weight: bold;
+  }
+
+   .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+   .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+
+.skills-section {
+    padding: 50px 20px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    font-size: 14px;
+    font-weight: bold;
+}
+.resume-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.resume-heading {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.milestone {
+  margin-bottom: 20px;
+}
+.download-btn {
+  margin-top: 30px;
+}
